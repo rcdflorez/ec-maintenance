@@ -1,0 +1,591 @@
+:root {
+    --primary-color: #ffd100;
+    --secondary-color: #03153f;
+}
+
+.topHeader {
+    background-color: #303133;
+    color: white;
+}
+
+.topHeader a {
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.page {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+
+.primaryHeader,
+.step,
+.div.response {
+    background-color: white;
+}
+
+.primaryHeader a {
+    font-weight: 605;
+    font-size: 13px;
+    color: #009a4d;
+}
+
+.mobileNav .active a {
+    color: #f59123;
+}
+
+li .active {
+    list-style-type: circle;
+}
+
+.mobileNav a {
+    color: #022e71;
+}
+
+.mobileNav .active a:hover,
+.mobileNav a:hover {
+    color: #f59123;
+}
+
+.footerTest div a {
+    color: #303133;
+    font-size: 14px;
+}
+
+.footerImages img {
+    height: auto;
+    max-width: 100px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.disclosure {
+    border-top: grey solid 1px;
+    color: #777777;
+}
+
+
+/*.step {
+  border: solid greenyellow 1px;
+}*/
+
+main {
+    background: rgb(0, 15, 30);
+    background: linear-gradient(0deg, rgba(0, 15, 30, 1) 0%, rgba(0, 49, 99, 1) 100%);
+}
+
+
+/*
+.page input.form-control {
+  background-color: #eaeaea;
+}*/
+
+main .step .stepHeader h2 {
+    color: #022e71;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+main .step .stepHeader p {
+    color: #022e71;
+    font-weight: 570;
+    font-size: 18px;
+}
+
+main .step .stepTitle {
+    color: #022e71;
+}
+
+main .step a {
+    color: #009a4d;
+}
+
+main div.response {
+    background-color: white;
+    border-radius: 1rem;
+    color: #777777;
+}
+
+.btn-previous {
+    color: #009a4d;
+    background-color: white;
+}
+
+.btn-previous:hover {
+    color: #009a4d;
+    background-color: white;
+    border: none;
+}
+
+.btn-success {
+    background-color: #37a046;
+}
+
+.breadcrumb {
+    border-color: #ffc1074f;
+    background-color: #fff8de;
+}
+
+.stepHeader span,
+.form-group span {
+    color: red;
+    font-weight: 500;
+}
+
+.form-group label {
+    margin-bottom: 0.1rem;
+}
+
+#accordion .card {
+    margin-top: 0.5rem;
+}
+
+.step-hidden {
+    display: none;
+}
+
+.user-left {
+    background-image: url("../src/img/angle-left-solid.svg");
+}
+
+.user-right {
+    background-image: url("../src/img/angle-right-solid.svg");
+}
+
+.mobileNav .progress {
+    border-radius: 0;
+}
+
+.mobileNav .progress-bar {
+    background-color: var(--primary-color);
+}
+
+.side-bar-container {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.side-bar-header p {
+    color: #022e71;
+    font-size: 1.2rem;
+    font-weight: 570;
+}
+
+.side-bar-container .progress-bar {
+    background-color: #37a046;
+    border-radius: 20px;
+}
+
+.side-bar-container .progress {
+    border-radius: 20px;
+}
+
+.side-bar-menu a {
+    color: #818181;
+    font-size: 17px;
+}
+
+.side-bar-menu li.active a,
+.side-bar-menu li.active {
+    color: #009A4D;
+    list-style: outside;
+    font-weight: 501;
+}
+
+ul.navbar-nav li svg {
+    display: none;
+}
+
+ul.navbar-nav li.completed svg {
+    height: 16px;
+    display: inline;
+    fill: rgba(1, 49, 98, 1);
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 5px
+}
+
+ul.navbar-nav li.completed a {
+    display: inline;
+    color: rgba(1, 49, 98, 1);
+    font-weight: 501;
+}
+
+ul.navbar-nav li.completed {
+    padding-top: 15px
+}
+
+.side-bar-menu {
+    font-size: 1.1rem;
+}
+
+.side-bar-container .side-bar-disclaimer small {
+    font-size: 70%;
+}
+
+.resultHeader h2 {
+    color: #37a046;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.resultHeader p {
+    color: #f59123;
+    font-size: 1.28rem;
+    font-weight: 500;
+}
+
+.mainResponse {
+    background-image: url("../src/img/resultBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.side-bar-container {
+    max-height: 600px;
+}
+
+body.page {
+    /*margin-top: -24px;*/
+}
+
+#headingDisclosure.card-header {
+    background-color: #fff8de;
+}
+
+#headingDisclosure .btn-link {
+    color: #98812f;
+}
+
+.step-6 #accordion a {
+    color: #f59123;
+}
+
+main .step {
+    color: #8f8f8f;
+    border-radius: 1rem;
+}
+
+@media (max-width: 576px) {
+    main .step {
+        color: #8f8f8f;
+        border-radius: 0;
+    }
+    .jump .sliderTooltip output {
+        color: transparent !important;
+    }
+    .slider-values {
+        color: #595959 !important;
+    }
+    #stp1inputValue {
+        text-align: center !important;
+        color: #84bc41 !important;
+    }
+    .page input[type=range] {
+        height: 25px;
+        margin-top: 20px;
+    }
+    .page input[type="range"]::-moz-range-thumb {
+        height: 25px;
+        margin-top: -1px;
+    }
+    .page input[type="range"]::-webkit-slider-thumb {
+        height: 25px;
+        margin-top: -1px;
+    }
+    .page .sliderTooltip::before {
+        bottom: -15px;
+        border: 15px solid transparent;
+        border-bottom: 0;
+        border-top: 15px solid var(--secondary-color);
+    }
+    div.container .footerImages img {
+        margin-top: 20px;
+        max-width: 85px;
+    }
+    .footer-section {
+        background-color: white;
+    }
+}
+
+.disclosure a {
+    color: #303133;
+}
+
+.simuleDisabled {
+    background: #E5E5E5;
+}
+
+.step label {
+    font-weight: 501;
+    font-size: 15px;
+    color: #595959;
+    margin-bottom: 5px;
+}
+
+#stp1inputValue {
+    color: #022e71;
+    font-weight: 501;
+}
+
+.completedStepItem {
+    list-style-image: url('./src/img/check-mark-16.svg');
+}
+
+.form-check label {
+    font-weight: 400;
+}
+
+.step-2 input[type="checkbox"] {
+    transform: scale(1.1)
+}
+
+
+/* Core Palette
+
+Dark blue #03153F
+Bright blue #2EC4EB
+Light Blue  #B9E7FC
+Cool Gray   #EAEAEA
+
+Secondary Palette
+
+Yellow #FFD100
+Orange #FAA11C
+
+*/
+
+.explore .testimonials {
+    display: none;
+}
+
+
+/* BODY and GLOBALS */
+
+.explore .body-gradient-background,
+.explore main {
+    background: linear-gradient(0deg, #028499 0, #0E3252 100%);
+}
+
+
+/* svg */
+
+.explore ul.navbar-nav li.completed svg,
+.explore ul.navbar-nav li.completed a {
+    fill: #2EC4EB!important;
+    color: #2EC4EB!important;
+    font-weight: normal;
+}
+
+
+/* PRIMARY COLOR */
+
+
+/* dark - primary-dark-XYZ */
+
+.explore .primary-dark-text,
+.explore main .step .stepHeader h2,
+.explore .side-bar-header p,
+.explore main .step .stepHeader p,
+.explore main .step .stepTitle {
+    color: #03153F;
+}
+
+.explore .primary-dark-background {
+    background-color: #03153F;
+    color: #fff;
+}
+
+.explore .primary-dark-border {
+    border-color: #03153F;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+/* light - primary-light-XYZ */
+
+.explore .primary-light-text,
+.explore #stp1inputValue,
+.explore input#loan_request_amount,
+.explore .slider-values {
+    color: #03153F !important;
+}
+
+.explore .primary-light-background,
+.explore input[type="range"] {
+    background-color: #978c96;
+    color: #fff;
+}
+
+.explore .primary-light-border {
+    border-color: #FFD100;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+/* SECONDARY COLOR */
+
+
+/* dark - .secondary-dark-XYZ */
+
+.explore .secondary-dark-text {
+    color: #FAA11C;
+}
+
+.explore .secondary-dark-background,
+.explore .btn-success:not(:disabled):not(.disabled).active,
+.explore .btn-success:not(:disabled):not(.disabled):active,
+.explore .show>.btn-success.dropdown-toggle
+/* save and continue button */
+
+{
+    background-color: #FAA11C;
+    color: #fff;
+}
+
+.explore .secondary-dark-border,
+.explore .btn-success:not(:disabled):not(.disabled).active,
+.explore .btn-success:not(:disabled):not(.disabled):active,
+.explore .show>.btn-success.dropdown-toggle
+/* save and continue button */
+
+{
+    border-color: #FAA11C;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+/* light - .secondary-light-XYZ */
+
+.explore .secondary-light-text,
+.explore .side-bar-menu li.active,
+
+/* side bar  text */
+
+.explore .side-bar-menu li.active a
+/* side bar link text */
+
+,
+.explore .btn-previous,
+.explore .btn-previous:hover,
+
+/* previous link */
+
+.explore .step a {
+    color: #03153F!important;
+}
+
+.explore .secondary-light-background,
+.explore .btn-success,
+.explore .btn-success:hover,
+.explore .form_page .left_bar .progress span,
+
+/* side bar */
+
+.explore .side-bar-container .progress-bar,
+
+/* slider */
+
+.explore .side-bar-container .progress-bar,
+
+/* side bar */
+
+.explore .side-bar-container .progress-bar
+/* slider */
+
+{
+    background-color: #FFD100;
+    color: #fff;
+}
+
+.explore .secondary-light-border,
+.explore .btn-success,
+.explore .btn-success:hover {
+    border-color: #FFD100;
+    border-width: 1px;
+    border-style: solid;
+    color: #03153F;
+    font-weight: 600;
+}
+
+
+/* GRAY COLOR */
+
+
+/* dark - .gray-dark-XYZ */
+
+.explore .gray-dark-text {
+    color: #595959;
+}
+
+.explore .gray-dark-background {
+    background-color: #595959;
+    color: #fff;
+}
+
+.explore .gray-dark-border {
+    border-color: #595959;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+/* light - .gray-light-XYZ */
+
+.explore .gray-light-text {
+    color: #e5e5e5;
+}
+
+.explore .gray-light-background {
+    background-color: #e5e5e5;
+    color: #fff;
+}
+
+.explore .gray-light-border {
+    border-color: #e5e5e5;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+/* HIGHLIGHT COLOR */
+
+
+/* highlight-dark-XYZ */
+
+.explore .highlight-dark-text,
+.explore .step-6 #accordion a
+/* disclosure explanding link text */
+
+{
+    color: #7a3571;
+}
+
+.explore .highlight-dark-background {}
+
+.explore .highlight-dark-border {}
+
+
+/* highlight-light-XYZ */
+
+.explore .highlight-light-text {}
+
+.explore .highlight-light-background,
+.explore #accordion .card-header
+/* disclosure cards */
+
+{
+    background-color: #00000008;
+}
+
+.explore .highlight-light-border,
+.explore #accordion .card-header
+/* disclosure cards */
+
+{
+    border-color: #00000020;
+}

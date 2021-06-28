@@ -205,9 +205,12 @@
             }
         }
         
-        @media only screen and (orientation:landscape) {
+        @media only screen and (orientation:landscape) and (max-device-width: 991px) {
             div.top-container-bg {
                 height: 190vh;
+            }
+            .mainResponse {
+                background-image: none !important;
             }
         }
     </style>
